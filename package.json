@@ -1,0 +1,22 @@
+{
+  "name": "lab-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon server/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JoiceMiranda",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "form-data": "^2.3.3",
+    "node-fetch": "^2.3.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
